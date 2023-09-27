@@ -6,7 +6,6 @@ import { FormEventHandler, useState } from "react";
 import Modal from "./Modal";
 import { useRouter } from "next/navigation";
 import { deleteTodo, editTodo } from "@/api";
-import { trace } from "console";
 
 interface TaskProps {
   task: ITAsk;
